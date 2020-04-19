@@ -1,0 +1,52 @@
+{
+  "id": "9dce7f23-8884-404d-950f-16899f84c214",
+  "name": "NumberConfirmedIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_cases",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4d000651-c516-4036-a092-a4a58847edda",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cases",
+          "value": "$cases",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "confirmed",
+          "isList": false
+        },
+        {
+          "id": "6995023a-32b0-44b6-9976-d2b14bed3946",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "country",
+          "value": "$country",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "us",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
